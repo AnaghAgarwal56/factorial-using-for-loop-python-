@@ -1,7 +1,7 @@
-a=int(input("Enter a number: "))
-fact=1
-while fact<=a:
-  for i in range (1,a+1):
-    fact=fact*i
-  print(f"Factorial of {a} is {fact} ")
-    
+a = int(input("Enter a number: "))
+fact = 1
+i = 1
+while i <= a:
+    fact = fact * i
+    i += 1
+print(f"Factorial of {a} is {fact}")
